@@ -38,5 +38,3 @@ var text_area = document.getElementById("compass_content");
             text_area.textContent = "empty compass";
         
 	}
-
-
