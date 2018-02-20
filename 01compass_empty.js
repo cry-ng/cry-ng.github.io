@@ -12,15 +12,15 @@ oriented = function(e) {
         //calls function to alter content based on heading
        // myOrientation();
         }
-        if (compassHeading > 45 || compassHeading < 135) {
+        if (compassHeading > 45 && compassHeading < 135) {
                 text_area.textContent = "RETRACTING LEFT HAND";
         }
 
-        if (compassHeading > 135 || compassHeading < 225) {
+        if (compassHeading > 135 && compassHeading < 225) {
                 text_area.textContent = "SINKING FEET";
         }
 
-        if (compassHeading > 225 || compassHeading < 315) {
+        if (compassHeading > 225 && compassHeading < 315) {
                 text_area.textContent = "EXTENDING RIGHT HAND";
         }
 // && is and and || is "or"
